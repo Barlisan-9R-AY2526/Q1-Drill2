@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Q1 Drill 2</title>
+	<style>
+		
+		body { 
+				font-family: Zalando Sans Expanded;
+				background-image: url(https://i.pinimg.com/736x/4f/99/78/4f99781d4374a0370754d88ed0342f31.jpg);
+				background-size: cover;
+				background-position: 1;
+				color: black;
+
+			 }
+
+ 		form {
+		        background-color: #E8E9ED;
+		        width:70%;
+		        padding: 20px;
+		        margin: auto;
+		        border-radius: 15px;
+		        border: 10px double #312F2F;
+		        box-shadow: 5px 5px 10px 1px #5a5858, 5px 5px 10px 1px #000000;
+
+		textarea{
+          			width: 400px;
+          			height: 30px;
+      		 }
+        input{ 
+        			border-radius:5px;
+
+
+        input[type='submit']{
+        	background-color:312F2F;
+        	border-radius:10px;
+        	width: 15%;
+        }
+
+
+
+             }
+
+
+	</style>
+
+</head>
+
+<body>
+
+	<form>
+		<h1>Music Recommendation</h1>
+
+		<label for="fname">Full name:</label><br>
+	      <input type="text" id="Fname" name="fname" placeholder="Enter your Full name" ><br>
+	      <label for="lname">Email:</label><br>
+	      <input type="text" id="Email" name="Email" placeholder="Enter your Email"><br>
+	      <label for="feedback">Song recommendation:</label><br> <input type="text" id="song" name="song" placeholder="Enter song name" ><br>
+	      <label for="feedback">Why did you recomment:</label><br>
+	      <textarea name="message">input feedback</textarea><p>
+
+          <label for="genre">What Genre:</label><br>
+          <input type="checkbox" id="genre1" name="genre1" value="Pop">
+          <label for="genre1">Pop</label>
+          <input type="checkbox" id="genre2" name="genre1" value="Kpop">
+          <label for="genre2">Kpop</label>
+          <input type="checkbox" id="genre3" name="genre3" value="Jazz">
+          <label for="genre3"> Jazz</label>
+ 		  <input type="checkbox" id="genre4" name="genre4" value="RNB">
+          <label for="genre4">RnB</label><br>
+          <input type="checkbox" id="genre5" name="genre5" value="Rap">
+          <label for="genre5">Rap</label>
+          <input type="checkbox" id="genre6" name="genre6" value="OPM">
+          <label for="genre6">OPM</label>
+          <input type="checkbox" id="genre7" name="genre7" value="Rock">
+          <label for="genre3">Rock</label>
+ 		  <input type="checkbox" id="genre8" name="genre8" value="Classical">
+          <label for="genre8">Classical</label><p>
+
+          <label for="genre">Rating:</label><br>
+          <input type="radio" name="rating" value="1">
+          <label for="1">1</label>
+          <input type="radio"name="rating" value="2">
+          <label for="2">2</label>
+          <input type="radio" name="rating" value="3">
+          <label for="3">3</label>
+          <input type="radio" name="rating" value="4">
+          <label for="4">4</label>
+          <input type="radio" name="rating" value="5">
+          <label for="5">5</label><p>
+         
+          <label for="genre">Where did you hear it?:</label><br>
+          <select name="Streaming Service">
+          <option value="stream">Select Platform</option>
+          <option value="stream">Spotify</option>
+          <option value="stream">Apple Music</option>
+          <option value="stream">Soundcloud</option>
+          <option value="stream">Youtube Music</option>
+          </select><p>
+
+          <input type="submit" value="Submit Recommendation">
+
+
+
+
+	</form>
+
+</body>
+</html>
